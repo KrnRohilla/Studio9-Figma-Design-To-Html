@@ -1,0 +1,137 @@
+/*---main---*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    color: black;
+}
+/*---End-main---*/
+
+/*---Header---*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+/*---End-Header---*/
+
+/*---Logo---*/
+.logo{
+    padding-right: 10%;
+}
+/*---End-Logo---*/
+
+/*---Nav---*/
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(64, 70, 158);
+}
+.dropdown{
+    display: none;
+}
+nav ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown ul li{
+    width: 150px;
+    padding: 10px;
+}
+/*---End-Nav---*/
+
+/*---Main-content---*/
+.main-content{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text-content{
+    flex: 1;
+    padding-right: 20px;
+}
+.text-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text-content p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #081f41;
+
+}
+.read-more{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*---End-Main-Content---*/
+
+/*---Image-Content---*/
+.image-content{
+    position: relative;
+    flex: 1;
+}
+.image-content img{
+    width: 100%;
+    border-radius: 8px;
+}
+/*---End-Image-Content---*/
+
+/*---Card-Section---*/
+.card-section{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    min-width: 1100px;
+    height: 160px;
+    margin: 0 auto;
+}
+.card{
+    background-color: whitesmoke;
+    border: 1px solid transparent;
+    box-shadow: whitesmoke;
+    text-align: left;
+    width: 220px;
+}
+.card .category{
+    font-size: 12px;
+    font-weight: bold;
+    color: #0288d1;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+.card h3{
+    font-size: 11px;
+    margin-top: 10px;
+    color: black;
+}
