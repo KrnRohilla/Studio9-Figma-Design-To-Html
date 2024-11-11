@@ -120,9 +120,9 @@ nav ul li:hover .dropdown{
     right: 8rem;
 }
 .card{
-    background-color: whitesmoke;
-    border: 1px solid transparent;
-    box-shadow: whitesmoke;
+    background-color: white;
+    border: 1px transparent rgb(233, 228, 228);
+    box-shadow: 1px 1px 0 2px  #f5f5f5;
     text-align: left;
     width: 220px;
 }
@@ -130,11 +130,100 @@ nav ul li:hover .dropdown{
     font-size: 12px;
     font-weight: bold;
     color: #0288d1;
-    padding: 15px;
+    margin: 1rem;
     margin-bottom: 5px;
 }
 .card h3{
     font-size: 11px;
     margin-top: 10px;
     color: black;
+    margin: 1rem;
+}
+/*---End-Card-Section---*/
+
+/*---Headlines-Section---*/
+.headlines-section{
+    position: relative;
+    background-color: #f5f5f5;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 160px;
+}
+.headlines-section h2{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.headlines-section h2 .line{
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: black;
+    margin-right: 10px;
+}
+.headlines-container{
+    display: flex;
+    gap: 2px;
+}
+.main-headline{
+    flex: 25;
+    position: relative;
+    left: 6rem;
+}
+.main-headline img{
+    width: 634px;
+    height: 478px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.main-headline .headline-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+.main-headline h3{
+    font-size: 24px;
+    top: 1344px;
+    left: 349px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.main-headline p{
+    font-size: 14px;
+    color: #ccc;
+}
+.headline-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex: 20;
+}
+.grid-item{
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    right: 5rem;
+}
+.grid-item img{
+    width: 322px;
+    height: 237px;
+    object-fit: cover;
+}
+.grid-item .headline-info{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+}
+.grid-item h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.grid-item p{
+    font-size: 12px;
+    color: #ccc;
 }
