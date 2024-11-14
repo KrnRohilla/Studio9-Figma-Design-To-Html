@@ -5,9 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
     font-style: normal;
     color: black;
 }
@@ -648,7 +647,7 @@ img{
     top: 168rem;
     background-color: #444;
     max-width: 1500px;
-    min-height: 500px;
+    max-height: 95%;
     margin: 0 auto;
     padding: 20px;
     margin-top: 230px;
@@ -666,7 +665,7 @@ img{
 .highlighted-videos h2{
     position: absolute;
     top: -3rem;
-    left: 21rem;
+    left: 17rem;
     font-size: 30px;
     font-weight: bold;
     display: flex;
@@ -677,7 +676,7 @@ img{
 .highlighted-videos .line{
     position: absolute;
     top: -1rem;
-    left: 17rem;
+    left: 13rem;
     display: inline-block;
     width: 60px;
     height: 2px;
@@ -707,6 +706,18 @@ img{
     height: 70%;
   }
   .video-thumbnail-2 {  
+    margin-bottom: 20px; 
+    margin-top: 1rem;
+    width: 117%;  
+    height: 70%;
+  }
+  .video-thumbnail-3 {  
+    margin-bottom: 20px; 
+    margin-top: 1rem;
+    width: 117%;  
+    height: 70%;
+  }
+  .video-thumbnail-4 {  
     margin-bottom: 20px; 
     margin-top: 1rem;
     width: 117%;  
@@ -752,5 +763,47 @@ img{
     color: white;
 }
 .video-title2 h6 span{
+    color:white;
+}
+.video-title3 h1{
+    position: absolute;
+    padding: 0px -25px;
+    margin: 0px 2px;
+    font-size: 15px;
+    left: 60rem;
+    top: 18rem;
+    font-weight: bold;
+    color: white;
+}
+.video-title3 h6{
+    position: absolute;
+    top: 23rem;
+    left: 60rem;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+.video-title3 h6 span{
+    color:white;
+}
+.video-title4 h1{
+    position: absolute;
+    padding: 0px -25px;
+    margin: 0px 2px;
+    font-size: 15px;
+    left: 60rem;
+    top: 26rem;
+    font-weight: bold;
+    color: white;
+}
+.video-title4 h6{
+    position: absolute;
+    top: 31rem;
+    left: 60rem;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+.video-title4 h6 span{
     color:white;
 }
