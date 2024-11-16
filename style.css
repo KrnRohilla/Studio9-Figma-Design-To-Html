@@ -908,8 +908,11 @@ img {
 /*---End-Highlighted Videos---*/
 
 /*---Articles---*/
+.container5{
+     max-width: 450px;
+}
 .articles {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -918,7 +921,7 @@ img {
 
 .articles h2 {
     position: absolute;
-    top: 3.6rem;
+    top: 222.7rem;
     left: 22rem;
     font-size: 30px;
     font-weight: bold;
@@ -930,7 +933,7 @@ img {
 
 .articles h3 {
     position: absolute;
-    top: 3.7rem;
+    top: 222.7rem;
     left: 50rem;
     font-size: 30px;
     font-weight: bold;
@@ -942,7 +945,7 @@ img {
 
 .articles .line {
     position: absolute;
-    top: 5rem;
+    top: 224rem;
     left: 18.10rem;
     display: inline-block;
     width: 60px;
@@ -953,7 +956,7 @@ img {
 
 .articles .line2 {
     position: absolute;
-    top: 5rem;
+    top: 224rem;
     left: 46.10rem;
     display: inline-block;
     width: 60px;
@@ -975,9 +978,9 @@ img {
 
 .featured-articles img {
     position: relative;
-    top: 5rem;
+    top: 4rem;
     left: 16rem;
-    width: 140%;
+    width: 450%;
     height: 100%;
     object-fit: cover;
     border-radius: 2px;
@@ -989,14 +992,14 @@ img {
     margin: 0px 2px;
     font-size: 20px;
     left: 17.9rem;
-    top: 29rem;
+    top: 247.7rem;
     font-weight: bold;
     color: black;
 }
 
 .featured-articles h6 {
     position: absolute;
-    top: 33rem;
+    top: 252rem;
     left: 18rem;
     font-size: 13px;
     font-weight: bold;
@@ -1005,7 +1008,7 @@ img {
 
 .featured-articles h2 {
     position: absolute;
-    top: 35rem;
+    top: 255rem;
     left: 18rem;
     font-size: 15px;
     font-weight: bold;
@@ -1029,9 +1032,9 @@ img {
 
 .featured-articles2 img {
     position: relative;
-    top: 5rem;
-    left: 3rem;
-    width: 130%;
+    top: 4rem;
+    left: 31rem;
+    width: 450%;
     height: 100%;
     object-fit: cover;
     border-radius: 2px;
@@ -1043,14 +1046,14 @@ img {
     margin: 0px 2px;
     font-size: 20px;
     left: 46.10rem;
-    top: 29rem;
+    top: 247.7rem;
     font-weight: bold;
     color: black;
 }
 
 .featured-articles2 h6 {
     position: absolute;
-    top: 33rem;
+    top: 252rem;
     left: 46.10rem;
     font-size: 13px;
     font-weight: bold;
@@ -1059,7 +1062,7 @@ img {
 
 .featured-articles2 h2 {
     position: absolute;
-    top: 35rem;
+    top: 255rem;
     left: 46rem;
     font-size: 15px;
     font-weight: bold;
@@ -1125,7 +1128,7 @@ img {
     position: relative;
     top: 17rem;
     left: 46rem;
-    width: 145px;
+    width: 140px;
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
@@ -1160,9 +1163,9 @@ img {
 
 .secondary-articles3 img {
     position: relative;
-    top: 18rem;
+    top: 15rem;
     left: 46rem;
-    width: 145px;
+    width: 140px;
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
@@ -1170,7 +1173,7 @@ img {
 
 .secondary-articles3 h4 {
     position: relative;
-    top: 11rem;
+    top: 8rem;
     left: 56rem;
     color: black;
     font-size: 12px;
@@ -1179,7 +1182,7 @@ img {
 
 .secondary-articles3 p {
     position: relative;
-    top: 12rem;
+    top: 9rem;
     left: 56rem;
     color: black;
     font-size: 14px;
@@ -1197,9 +1200,9 @@ img {
 
 .secondary-articles4 img {
     position: relative;
-    top: 7rem;
+    top: 4rem;
     left: 18rem;
-    width: 150px;
+    width: 146px;
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
@@ -1207,7 +1210,7 @@ img {
 
 .secondary-articles4 h4 {
     position: relative;
-    top: 0rem;
+    top: -3rem;
     left: 28rem;
     color: black;
     font-size: 12px;
@@ -1216,7 +1219,7 @@ img {
 
 .secondary-articles4 p {
     position: relative;
-    top: 1rem;
+    top: -2rem;
     left: 28rem;
     color: black;
     font-size: 14px;
@@ -1234,9 +1237,9 @@ img {
 
 .secondary-articles5 img {
     position: relative;
-    top: 7rem;
+    top: 2rem;
     left: 18rem;
-    width: 150px;
+    width: 145px;
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
@@ -1244,7 +1247,7 @@ img {
 
 .secondary-articles5 h4 {
     position: relative;
-    top: 1rem;
+    top: -5rem;
     left: 28rem;
     color: black;
     font-size: 12px;
@@ -1253,7 +1256,7 @@ img {
 
 .secondary-articles5 p {
     position: relative;
-    top: 2rem;
+    top: -4rem;
     left: 28rem;
     color: black;
     font-size: 14px;
@@ -1271,9 +1274,9 @@ img {
 
 .secondary-articles6 img {
     position: relative;
-    top: -4rem;
+    top: -9rem;
     left: 46rem;
-    width: 145px;
+    width: 140px;
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
@@ -1281,7 +1284,7 @@ img {
 
 .secondary-articles6 h4 {
     position: relative;
-    top: -10rem;
+    top: -16rem;
     left: 56rem;
     color: black;
     font-size: 12px;
@@ -1290,7 +1293,7 @@ img {
 
 .secondary-articles6 p {
     position: relative;
-    top: -9rem;
+    top: -15rem;
     left: 56rem;
     color: black;
     font-size: 14px;
