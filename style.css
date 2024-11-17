@@ -908,9 +908,11 @@ img {
 /*---End-Highlighted Videos---*/
 
 /*---Articles---*/
-.container5{
-     max-width: 450px;
+.container5 {
+    max-width: 450px;
+    max-height: 1130px;
 }
+
 .articles {
     /* position: relative; */
     display: flex;
@@ -1303,4 +1305,158 @@ img {
 .secondary-articles6 p span {
     color: #0288d1;
 }
+
 /*---End-Articles---*/
+
+/*---Footer---*/
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    max-height: 270px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    float: left;
+    width: 30%;
+}
+
+.footer-left h2 {
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer-left h4 {
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #bdbdbd;
+}
+
+.footer-left p {
+    font-size: 16px;
+    margin-top: 40px;
+    color: #444;
+}
+
+.footer-left p span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right li {
+    margin-bottom: 1px;
+}
+
+.footer-right h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-center {
+    float: left;
+    width: 55%;
+    margin-left: 40px;
+}
+
+.footer-column {
+    float: right;
+    width: 33.33%;
+    margin-right: 40px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+}
+
+.footer-column li {
+    margin-bottom: 1px;
+}
+
+.footer-column a {
+    color: #444;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #ccc;
+}
+
+.footer-bottom {
+    clear: both;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-bottom li {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    left: 50rem;
+    top: -2rem;
+}
+
+.footer-bottom a {
+    color: #444;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #ccc;
+}
+
+.social-icon {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icon li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 6px;
+    left: -1rem;
+}
+
+.social-icon i {
+    color: white;
+    font-size: 25px;
+}
+
+/*---End-Footer---*/
